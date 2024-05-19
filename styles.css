@@ -61,9 +61,12 @@ footer {
     height: 100px;
     border: none !important;
     background-color: #23242500;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .loghi>img:hover{
+    transform: perspective(1000px) rotateY(15deg) rotateX(15deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     background-color: rgba(255, 255, 255, 0.308);
     border: 2px solid black;
 }
@@ -115,6 +118,10 @@ footer {
     border: none;
     background-color: #23242500;
     padding: 20px;
+}
+.project-img>img:hover{
+    width: 120%;
+    margin-left: -30px;
 }
 .color{
     background-color: rgb(77, 77, 77) !important;

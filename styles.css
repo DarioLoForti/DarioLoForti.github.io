@@ -16,7 +16,7 @@ body{
 }
 
 header {
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 20px 0;
     width: 100%;
@@ -42,7 +42,7 @@ a{
 }
 
 footer {
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     text-align: center;
     padding: 20px 0;

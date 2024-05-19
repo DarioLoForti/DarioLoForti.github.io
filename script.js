@@ -29,29 +29,29 @@
         Writer();
 
         // Inizializza EmailJS
-        emailjs.init("sZ-QiQC265_V8X2g1"); // Sostituisci YOUR_USER_ID con il tuo User ID di EmailJS
+        emailjs.init("sZ-QiQC265_V8X2g1"); 
 
         document.getElementById('contact-form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Impedisce l'invio del modulo tradizionale
+            event.preventDefault(); 
 
-            // Ottieni i dati del modulo
+            
             var nome = document.getElementById('nome').value;
             var email = document.getElementById('email').value;
             var messaggio = document.getElementById('messaggio').value;
 
-            // Crea il template params
+            
             var templateParams = {
                 from_name: nome,
                 from_email: email,
                 message: messaggio
             };
 
-            // Invia email utilizzando EmailJS
+           
             emailjs.send('service_t7xbxyp', 'template_bhvjfxh', templateParams)
                 .then(function(response) {
                     console.log('SUCCESS!', response.status, response.text);
                     alert('Messaggio inviato con successo!');
-                    document.getElementById('contact-form').reset(); // Resetta il modulo
+                    document.getElementById('contact-form').reset(); 
                 }, function(error) {
                     console.log('FAILED...', error);
                     alert('Errore nell\'invio del messaggio.');

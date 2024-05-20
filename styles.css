@@ -57,7 +57,7 @@ position: absolute;
 left: 51%;
 bottom: 180px;
 font-weight: bold;
-font-size: 50px;
+font-size: 45px;
 text-shadow: 
             0 0 5px lightgray,
             0 0 10px lightgray,
@@ -70,7 +70,7 @@ text-shadow:
 }
 .text>h6{
     position: absolute;
-    left: 57%;
+    left: 55%;
     bottom: 160px;
     font-weight: bold;
 

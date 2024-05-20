@@ -2,7 +2,7 @@
     document.addEventListener("DOMContentLoaded", function() {
         const text1 = "Jr Full Stack Web Developer"
         let i1 = 0;
-        const speed1 = 50;
+        const speed1 = 80;
 
         function typeWriter() {
             if (i1 < text1.length) {

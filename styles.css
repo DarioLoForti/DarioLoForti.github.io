@@ -59,9 +59,9 @@ bottom: 180px;
 font-weight: bold;
 font-size: 50px;
 text-shadow: 
-            0 0 5px #fff,
-            0 0 10px #fff,
-            0 0 15px #fff,
+            0 0 5px lightgray,
+            0 0 10px lightgray,
+            0 0 15px lightgray,
             0 0 20px black,
             0 0 30px black,
             0 0 40px black,
@@ -70,7 +70,7 @@ text-shadow:
 }
 .text>h6{
     position: absolute;
-    left: 60%;
+    left: 57%;
     bottom: 160px;
     font-weight: bold;
 
@@ -170,10 +170,12 @@ footer {
     border: none;
     background-color: #23242500;
     padding: 20px;
+    transition: all 0.3s ease;
 }
 .project-img>img:hover{
-    width: 120%;
-    margin-left: -30px;
+    
+    width: 110%;
+    margin-left: -20px;
 }
 .color{
     background-color: rgb(77, 77, 77) !important;

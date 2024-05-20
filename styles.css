@@ -36,6 +36,54 @@ img{
     width: 100%;
     border-radius: 20px;
 }
+.content-img{
+    position: relative;
+}
+.content-img>img{
+    width: 30% ;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    z-index: 2;
+    
+
+}
+.text{
+    width: 100%;
+    position: relative;
+}
+.text>h1{
+position: absolute;
+left: 51%;
+bottom: 180px;
+font-weight: bold;
+font-size: 50px;
+text-shadow: 
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 15px #fff,
+            0 0 20px black,
+            0 0 30px black,
+            0 0 40px black,
+            0 0 50px black,
+            0 0 70px black;
+}
+.text>h6{
+    position: absolute;
+    left: 60%;
+    bottom: 160px;
+    font-weight: bold;
+
+}
+.png{
+    
+    width: 80% !important;
+    position: absolute;
+    left: 0px !important;
+    bottom: 0px !important;
+    transform: rotate(180deg);
+    z-index: -2 !important;
+}
 
 a{
     text-decoration: none !important;
@@ -52,10 +100,12 @@ footer {
 
 .loghi{
     width: 100px;
-    
-    
 }
-
+.description{
+    border-radius: 10%;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
 .loghi>img{
     width: 100px;
     height: 100px;
@@ -71,9 +121,7 @@ footer {
     border: 2px solid black;
 }
 .content-about{
-    border-radius: 20px;
-   border: 1px solid white;
-   padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .skills-list {
     list-style-type: none;
@@ -91,7 +139,10 @@ footer {
     height: 40px;
     margin-right: 10px;
 }
-
+.testo{
+    width: 25%;
+    
+}
 .progress {
     height: 10px;
     background-color: #f0f0f0;
